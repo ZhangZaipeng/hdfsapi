@@ -19,7 +19,7 @@ import java.net.URI;
 public class HDFSApi {
 
     // hdfs://hadoop1:9000
-    public static final String HDFS_PATH = "hdfs://123.206.174.58:9000";
+    public static final String HDFS_PATH = "hdfs://hadoop1:9000";
 
     FileSystem fileSystem = null;
     Configuration configuration = null;
